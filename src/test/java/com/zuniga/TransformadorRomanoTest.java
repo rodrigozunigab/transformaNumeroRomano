@@ -62,9 +62,9 @@ public class TransformadorRomanoTest {
         assertEquals("XVII", TransformadorRomano.calcular(17));
         assertEquals("XVIII", TransformadorRomano.calcular(18));
         assertEquals("XIX", TransformadorRomano.calcular(19));
-
         assertEquals("XX", TransformadorRomano.calcular(20));// --> XX
         assertEquals("XXI", TransformadorRomano.calcular(21));// --> XXI
+        assertEquals("XXII", TransformadorRomano.calcular(22));
         assertEquals("XXIII", TransformadorRomano.calcular(23));// --> XXIII
         assertEquals("XXIV", TransformadorRomano.calcular(24));// --> XXIV
         assertEquals("XXV", TransformadorRomano.calcular(25));// --> XXV
@@ -84,15 +84,17 @@ public class TransformadorRomanoTest {
         assertEquals("LXXXIX", TransformadorRomano.calcular(89));// --> LXXXIX
         assertEquals("XC", TransformadorRomano.calcular(90));// --> XC
         assertEquals("XCI", TransformadorRomano.calcular(91));// --> XCI
-        assertEquals("XCV", TransformadorRomano.calcular(95));// --> XCV
+        assertEquals("XCV", TransformadorRomano.calcular(95));// --> XCV        
+        assertEquals("XCIX", TransformadorRomano.calcular(99));       
         assertEquals("C", TransformadorRomano.calcular(100));// --> C
         assertEquals("CIII", TransformadorRomano.calcular(103));// --> CIII
         assertEquals("CXVII", TransformadorRomano.calcular(117));// --> CXVII
+        assertEquals("CLI", TransformadorRomano.calcular(151)); 
         assertEquals("CLXX", TransformadorRomano.calcular(170));// --> CLXX
+        assertEquals("CC", TransformadorRomano.calcular(200));
         assertEquals("CCL", TransformadorRomano.calcular(250));// --> CCL
         assertEquals("CCCXCIX", TransformadorRomano.calcular(399));// --> CCCXCIX
-        assertEquals("CD", TransformadorRomano.calcular(400));// --> CD
-        
+        assertEquals("CD", TransformadorRomano.calcular(400));// --> CD      
         assertEquals("CDX", TransformadorRomano.calcular(410));// --> CDX
         assertEquals("CDL", TransformadorRomano.calcular(450));// --> CDL
         assertEquals("CDLXXX", TransformadorRomano.calcular(480));// --> CDLXXX
