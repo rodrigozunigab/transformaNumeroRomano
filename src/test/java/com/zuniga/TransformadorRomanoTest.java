@@ -14,7 +14,7 @@ import static org.junit.Assert.*;
 
 /**
  *
- * @author rodrigozuniga
+ * @author rodrigozuniga.
  */
 public class TransformadorRomanoTest {
 
